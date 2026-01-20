@@ -1,0 +1,18 @@
+
+{
+  "name": "rox-voices-backend",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "Secure Node.js backend for Rox Voices TTS Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
